@@ -1,15 +1,15 @@
 kind: Application
 apiVersion: argoproj.io/v1alpha1
 metadata:
-  name: environments
+  name: petclinic-environments
 spec:
   destination:
     namespace: openshift-gitops
     server: https://kubernetes.default.svc
-  project: environments
+  project: petclinic-environments
   source:
     path: gitops/overlays/01-environments/00-ga
-    repoURL: https://github.com/pittar-demos/gitops-and-tekton-with-openshift.git
+    repoURL: https://github.com/masauve-gitops/gitops-and-tekton-with-openshift.git
     targetRevision: main
   syncPolicy:
     automated:
