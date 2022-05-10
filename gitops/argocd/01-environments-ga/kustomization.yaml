@@ -5,4 +5,4 @@ namespace: openshift-gitops
 
 resources:
   - environments-project.yaml
-  - environments-appset.yaml
+  - environments-application.yaml
