@@ -64,6 +64,7 @@
           <sonar.dependencyCheck.jsonReportPath>target/dependency-check-report.json</sonar.dependencyCheck.jsonReportPath>
           <sonar.java.pmd.reportPaths>target/pmd.xml</sonar.java.pmd.reportPaths>
           <sonar.java.checkstyle.reportPaths>target/checkstyle-result.xml</sonar.java.checkstyle.reportPaths>
+          <sonar.login>10e1270b08b7ba12018340a834b0b5634b0caa69</sonar.login>
         </properties>
       </profile>
     </profiles>
