@@ -32,6 +32,8 @@ spec:
           value: mysql
         - name: MYSQL_SERVER
           value: petclinicdb
+        - name: MYSQL_URL
+          value: jdbc:mysql://petclinicdb/petclinic
         - name: MYSQL_USER
           valueFrom:
             secretKeyRef:
